@@ -19,7 +19,7 @@ cp platform/darwin/bazel/example_config.bzl platform/darwin/bazel/config.bzl
 Create and open Xcode project:
 
 ```sh
-bazel run //platform/macos:xcodeproj --@rules_xcodeproj//xcodeproj:extra_common_flags="--//:renderer=metal
+bazel run //platform/macos:xcodeproj --@rules_xcodeproj//xcodeproj:extra_common_flags="--//:renderer=metal"
 xed platform/macos/MapLibre.xcodeproj
 ```
 
